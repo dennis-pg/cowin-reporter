@@ -1,0 +1,6 @@
+{
+    "nodemailer" : {
+        "username": "<insert gmail ID>",
+        "password": "<insert gmail password>"
+    }
+}

@@ -1,0 +1,18 @@
+### GET Subscribers
+GET http://localhost:8089/subscribers
+###
+
+### CREATE Subscriber
+POST http://localhost:8089/subscribers
+Content-Type: application/json
+
+{
+    "email": "rohan@gmail.com",
+    "district": "Alappuzha",
+    "min_age": "45"
+}
+###
+
+### GET Debug
+GET http://localhost:8089
+###

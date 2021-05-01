@@ -1,0 +1,14 @@
+@prod=https://cdn-api.co-vin.in/api
+
+### State
+GET https://api.demo.co-vin.in/api/v2/admin/location/states
+###
+GET https://cdn-api.co-vin.in/api/v2/admin/location/states
+
+### District
+GET https://api.demo.co-vin.in/api/v2/admin/location/districts/17
+###
+GET https://cdn-api.co-vin.in/api/v2/admin/location/districts/17
+
+### Sessions
+GET {{prod}}/v2/appointment/sessions/public/calendarByDistrict?district_id=298&date=30-04-2021
